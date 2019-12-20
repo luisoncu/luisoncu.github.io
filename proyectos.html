@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Merchise.Ltda/Proyectos</title>
+
+    <link rel="shortcut icon" href="img/favicon.png" />
+
+    <meta name=description content="">
+
+    <!-- CSS -->
+    <link href="css/preload.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="css/font-awesome.min.css" rel="stylesheet" media="screen">
+    <link href="css/animate.min.css" rel="stylesheet" media="screen">
+    <link href="css/slidebars.css" rel="stylesheet" media="screen">
+    <link href="css/lightbox.css" rel="stylesheet" media="screen">
+    <link href="css/jquery.bxslider.css" rel="stylesheet" />
+    <link href="css/syntaxhighlighter/shCore.css" rel="stylesheet"  media="screen">
+
+    <link href="css/style-blue.css" rel="stylesheet" media="screen" title="default">
+    <link href="css/width-full.css" rel="stylesheet" media="screen" title="default">
+
+    <link href="css/buttons.css" rel="stylesheet" media="screen">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv.min.js"></script>
+        <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<!-- Preloader -->
+<div id="preloader">
+    <div id="status">&nbsp;</div>
+</div>
+
+<body>    
+    <div id="sb-site">
+    <div class="boxed">
+        <header id="header-full-top" class="header-full header-full-dark hidden-xs">
+            <div class="container">
+                <div class="header-full-title" style="min-height: 97px;min-width: 400px;">
+                    <div class="animated fadeInRight" style="margin-top: 71px;margin-left: 20px;">Innovación y Tecnología</div>
+                </div>
+                <nav class="top-nav">
+                    <ul class="top-nav-social hidden-sm">
+                        <li><a href="https://twitter.com/MerchiseLtda" class="animated fadeIn animation-delay-7 twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://www.facebook.com/merchise" class="animated fadeIn animation-delay-8 facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://plus.google.com/110656190905982309961/about" class="animated fadeIn animation-delay-9 googleplus"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/merchise" class="animated fadeIn animation-delay-7 linkedin"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </nav>
+            </div> <!-- container -->
+        </header> <!-- header-full -->
+
+        <nav class="navbar navbar-static-top navbar-default navbar-header-full navbar-inverse" role="navigation" id="header">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand hidden-lg hidden-md hidden-sm" href="index.html">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a>
+                </div> <!-- navbar-header -->
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="pull-right">
+                    <a href="javascript:void(0);" class="sb-icon-navbar sb-toggle-right"></i></a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                    	<li><a href="inicio.html">Inicio</a></li>
+                    	<li><a href="servicios.html">Servicios</a></li>
+                    	<li class="active"><a href="proyectos.html">Proyectos</a></li>
+                    	<li><a href="clientes.html">Clientes</a></li>
+                    	<li><a href="nosotros.html">Nosotros</a></li>
+                    	<li><a href="contacto.html">Contacto</a></li>
+                     </ul>
+                </div><!-- navbar-collapse -->
+            </div><!-- container -->
+        </nav>
+
+        <header class="main-header">
+            <div class="container">
+                <h1 class="page-title">Proyectos</h1>
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 hidden-sm hidden-xs">
+                    <div class="portfolio-menu">
+                        <h3><i class="fa fa-desktop"></i>Opciones de Visualización</h3>
+                        <h4><i class="fa fa-folder-open-o"></i> Categorías</h4>
+                        <ul class="portfolio-cats">
+                            <li><span class="filter" data-filter="all" class="active">Todas</span></li>
+                            <li><span class="filter" data-filter=".category-1">HTML 5</span></li>
+                            <li><span class="filter" data-filter=".category-2">CCS 3.0</span></li>
+                            <li><span class="filter" data-filter=".category-3">JQuery</span></li>
+                            <li><span class="filter" data-filter=".category-4">.Net</span></li>
+                            <li><span class="filter" data-filter=".category-5">Windows Azure</span></li>
+                        </ul>
+                        <h4><i class="fa fa-th"></i> Columnas</h4>
+                        <ul class="portfolio-cols">
+                            <li><a href="javascript:void(0);" id="Cols1">1</a></li>
+                            <li><a href="javascript:void(0);" id="Cols2">2</a></li>
+                            <li><a href="javascript:void(0);" id="Cols3" class="active">3</a></li>
+                            <li><a href="javascript:void(0);" id="Cols4">4</a></li>
+                        </ul>
+                        <div class="clearfix"></div>
+                        <!--
+                        <h4><i class="fa fa-align-justify"></i> Ver descripción</h4>
+                        <ul class="portfolio-desc">
+                            <li><a href="javascript:void(0);" id="port-show">Ver</a></li>
+                            <li><a href="javascript:void(0);" id="port-hide" class="active">Ocultar</a></li>
+                        </ul>
+                        <div class="clearfix"></div>
+                        -->
+                    </div>
+                </div> <!-- col-md-3 -->
+                <div class="col-md-9">
+                    <div class="row" id="Container">
+                        <div class="mix category-1 category-4 col-md-4 col-sm-6 col-xs-12">
+                            <a class="thumbnail" href="img/proyecto01.jpg" data-lightbox="galeria"> 
+                                <img src="img/proyecto01.jpg" alt="" class="img-responsive">
+                            </a>
+                            <div class="portfolio-item-caption hide">
+                                <h4>Lorem ipsum dolor</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, quod?</p>
+                            </div>
+                        </div>
+                        <div class="mix category-1 category-4 col-md-4 col-sm-6 col-xs-12">
+                            <a class="thumbnail" href="img/proyecto02.jpg" data-lightbox="galeria"> 
+                                <img src="img/proyecto02.jpg"  alt="" class="img-responsive">
+                            </a>
+                            <div class="portfolio-item-caption hide">
+                                <h4>Lorem ipsum dolor</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, delectus!</p>
+                            </div>
+                        </div>
+                        <div class="mix category-1 category-4 col-md-4 col-sm-6 col-xs-12">
+                            <a class="thumbnail"href="img/proyecto03.jpg" data-lightbox="galeria"> 
+                                <img src="img/proyecto03.jpg" alt="" class="img-responsive">
+                            </a>
+                            <div class="portfolio-item-caption hide">
+                                <h4>Lorem ipsum dolor</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, tenetur.</p>
+                            </div>
+                        </div>
+                        <div class="mix category-1 category-4 col-md-4 col-sm-6 col-xs-12">
+                            <a class="thumbnail" href="img/proyecto04.jpg" data-lightbox="galeria"> 
+                                <img src="img/proyecto04.jpg" alt="" class="img-responsive">
+                            </a>
+                            <div class="portfolio-item-caption hide">
+                                <h4>Lorem ipsum dolor</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, doloremque?</p>
+                            </div>
+                        </div>
+                        <div class="mix category-1 category-4 col-md-4 col-sm-6 col-xs-12">
+                            <a class="thumbnail" href="img/proyecto05.jpg" data-lightbox="galeria"> 
+                                <img src="img/proyecto05.jpg" alt="" class="img-responsive">
+                            </a>
+                            <div class="portfolio-item-caption hide">
+                                <h4>Lorem ipsum dolor</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, nobis.</p>
+                            </div>
+                        </div>
+                        <div class="mix category-1 category-4 col-md-4 col-sm-6 col-xs-12">
+                            <a class="thumbnail" href="img/proyecto07.jpg" data-lightbox="galeria"> 
+                                <img src="img/proyecto07.jpg" alt="" class="img-responsive">
+                            </a>
+                            <div class="portfolio-item-caption hide">
+                                <h4>Lorem ipsum dolor</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, voluptas.</p>
+                            </div>
+                        </div>
+                        <div class="mix category-1 category-4 col-md-4 col-sm-6 col-xs-12">
+                            <a class="thumbnail" href="img/proyecto07.jpg" data-lightbox="galeria"> 
+                                <img src="img/proyecto07.jpg" alt="" class="img-responsive">
+                            </a>
+                            <div class="portfolio-item-caption hide">
+                                <h4>Lorem ipsum dolor</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, quo.</p>
+                            </div>
+                        </div>
+                        <div class="mix category-1 category-4 col-md-4 col-sm-6 col-xs-12">
+                            <a class="thumbnail" href="img/proyecto09.jpg" data-lightbox="galeria"> 
+                                <img src="img/proyecto09.jpg" alt="" class="img-responsive">
+                            </a>
+                            <div class="portfolio-item-caption hide">
+                                <h4>Lorem ipsum dolor</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, velit!</p>
+                            </div>
+                        </div>
+                        <div class="mix category-1 col-md-4 col-sm-6 col-xs-12">
+                            <a class="thumbnail" href="img/proyecto10.jpg" data-lightbox="galeria"> 
+                                <img src="img/proyecto10.jpg" alt="" class="img-responsive">
+                            </a>
+                            <div class="portfolio-item-caption hide">
+                                <h4>Lorem ipsum dolor</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, velit!</p>
+                            </div>
+                        </div>
+                        <div class="mix category-1 col-md-4 col-sm-6 col-xs-12">
+                            <a class="thumbnail" href="img/proyecto11.jpg" data-lightbox="galeria"> 
+                                <img src="img/proyecto11.jpg" alt="" class="img-responsive">
+                            </a>
+                            <div class="portfolio-item-caption hide">
+                                <h4>Lorem ipsum dolor</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, velit!</p>
+                            </div>
+                        </div>
+                        <div class="mix category-1 col-md-4 col-sm-6 col-xs-12">
+                            <a class="thumbnail" href="img/proyecto12.jpg" data-lightbox="galeria"> 
+                                <img src="img/proyecto12.jpg" alt="" class="img-responsive">
+                            </a>
+                            
+                            <div class="portfolio-item-caption hide">
+                                <h4>Lorem ipsum dolor</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, velit!</p>
+                            </div>
+                        </div>
+                        <div class="mix category-1 category-2 category-4 category-5 col-md-4 col-sm-6 col-xs-12">
+                            <a class="thumbnail" href="img/proyecto13.jpg" data-lightbox="galeria"> 
+                                <img src="img/proyecto13.jpg" alt="" class="img-responsive"class=>
+                            </a>
+                            <div class="portfolio-item-caption hide">
+                                <h4>Lorem ipsum dolor</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, velit!</p>
+                            </div>
+                        </div>
+                        <div class="mix category-1 category-2 category-4 category-5 col-md-4 col-sm-6 col-xs-12">
+                            <a class="thumbnail" href="img/proyecto14.jpg" data-lightbox="galeria"> 
+                                <img src="img/proyecto14.jpg" alt="" class="img-responsive">
+                            </a>
+                            <div class="portfolio-item-caption hide">
+                                <h4>Lorem ipsum dolor</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, velit!</p>
+                            </div>
+                        </div>
+                        <div class="mix category-1 category-2 category-5 col-md-4 col-sm-6 col-xs-12">
+                            <a class="thumbnail" href="img/proyecto15.jpg" data-lightbox="galeria"> 
+                                <img src="img/proyecto15.jpg" alt="" class="img-responsive">
+                            </a>
+                            
+                            <div class="portfolio-item-caption hide">
+                                <h4>Lorem ipsum dolor</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, velit!</p>
+                            </div>
+                             
+                        </div>
+                      
+                        <div class="mix category-1 category-2 category-5 col-md-4 col-sm-6 col-xs-12">
+                            <a class="thumbnail" href="img/proyecto16.jpg" data-lightbox="galeria"> 
+                                <img src="img/proyecto16.jpg" alt="" class="img-responsive">
+                            </a>
+                            <div class="portfolio-item-caption hide">
+                                <h4>Lorem ipsum dolor</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, velit!</p>
+                            </div>
+                        </div>
+                        <div class="mix category-1 category-2 category-5 col-md-4 col-sm-6 col-xs-12">
+                            <a class="thumbnail" href="img/proyecto17.jpg" data-lightbox="galeria"> 
+                                <img src="img/proyecto17.jpg" alt="" class="img-responsive">
+                            </a>
+                            <div class="portfolio-item-caption hide">
+                                <h4>Lorem ipsum dolor</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, velit!</p>
+                            </div>
+                        </div>
+                        <div class="mix category-1 category-2 category-3 category-5 col-md-4 col-sm-6 col-xs-12">
+                            <a class="thumbnail" href="img/proyecto18.jpg" data-lightbox="galeria"> 
+                                <img src="img/proyecto18.jpg" alt="" class="img-responsive">
+                            </a>
+                            <div class="portfolio-item-caption hide">
+                                <h4>Lorem ipsum dolor</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, velit!</p>
+                            </div>
+                        </div>
+                        <div class="mix category-1 category-2 category-3 category-5 col-md-4 col-sm-6 col-xs-12">
+                            <a class="thumbnail" href="img/proyecto19.jpg" data-lightbox="galeria"> 
+                                <img src="img/proyecto19.jpg" alt="" class="img-responsive">
+                            </a>
+                            <div class="portfolio-item-caption hide">
+                                <h4>Lorem ipsum dolor</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, velit!</p>
+                            </div>
+                        </div>
+                        <div class="mix category-1 category-2 category-3 category-5 col-md-4 col-sm-6 col-xs-12">
+                            <a class="thumbnail" href="img/proyecto20.jpg" data-lightbox="galeria"> 
+                                <img src="img/proyecto20.jpg" alt="" class="img-responsive">
+                            </a>
+                            <div class="portfolio-item-caption hide">
+                                <h4>Lorem ipsum dolor</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, velit!</p>
+                            </div>
+                        </div>
+                        <div class="mix category-1 category-2 category-3 category-5 col-md-4 col-sm-6 col-xs-12">
+                            <a class="thumbnail" href="img/proyecto21.jpg" data-lightbox="galeria"> 
+                                <img src="img/proyecto21.jpg" alt="" class="img-responsive">
+                            </a>
+                            <div class="portfolio-item-caption hide">
+                                <h4>Lorem ipsum dolor</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, velit!</p>
+                            </div>
+                        </div>
+                        <div class="mix category-1 category-2 category-3 category-5 col-md-4 col-sm-6 col-xs-12">
+                            <a class="thumbnail" href="img/proyecto22.jpg" data-lightbox="galeria"> 
+                                <img src="img/proyecto22.jpg" alt="" class="img-responsive">
+                            </a>
+                            <div class="portfolio-item-caption hide">
+                                <h4>Lorem ipsum dolor</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, velit!</p>
+                            </div>
+                        </div>
+                        <div class="mix category-1 category-2 category-3 category-5 col-md-4 col-sm-6 col-xs-12">
+                            <a class="thumbnail" href="img/proyecto23.jpg" data-lightbox="galeria"> 
+                                <img src="img/proyecto23.jpg" alt="" class="img-responsive">
+                            </a>
+                            <div class="portfolio-item-caption hide">
+                                <h4>Lorem ipsum dolor</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, velit!</p>
+                            </div>
+                        </div>
+                        <div class="mix category-1 category-2 category-3 category-5 col-md-4 col-sm-6 col-xs-12">
+                            <a class="thumbnail" href="img/proyecto24.jpg" data-lightbox="galeria"> 
+                                <img src="img/proyecto24.jpg" alt="" class="img-responsive">
+                            </a>
+                            <div class="portfolio-item-caption hide">
+                                <h4>Lorem ipsum dolor</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, velit!</p>
+                            </div>
+                        </div>
+                        <div class="mix category-1 category-2 category-3 category-5 col-md-4 col-sm-6 col-xs-12">
+                            <a class="thumbnail" href="img/proyecto25.jpg" data-lightbox="galeria"> 
+                                <img src="img/proyecto25.jpg" alt="" class="img-responsive">
+                            </a>
+                            <div class="portfolio-item-caption hide">
+                                <h4>Lorem ipsum dolor</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, velit!</p>
+                            </div>
+                        </div>
+                        <div class="mix category-1 category-2 category-3 category-5 col-md-4 col-sm-6 col-xs-12">
+                            <a class="thumbnail" href="img/proyecto26.jpg" data-lightbox="galeria"> 
+                                <img src="img/proyecto26.jpg" alt="" class="img-responsive">
+                            </a>
+                            <div class="portfolio-item-caption hide">
+                                <h4>Lorem ipsum dolor</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, velit!</p>
+                            </div>
+                        </div>
+                        <div class="mix category-1 category-2 category-3 category-5 col-md-4 col-sm-6 col-xs-12">
+                            <a class="thumbnail" href="img/proyecto27.jpg" data-lightbox="galeria"> 
+                                <img src="img/proyecto27.jpg" alt="" class="img-responsive">
+                            </a>
+                            <div class="portfolio-item-caption hide">
+                                <h4>Lorem ipsum dolor</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, velit!</p>
+                            </div>
+                        </div>
+                        <div class="mix category-1 category-2 category-3 category-5 col-md-4 col-sm-6 col-xs-12">
+                            <a class="thumbnail" href="img/proyecto28.jpg" data-lightbox="galeria"> 
+                                <img src="img/proyecto28.jpg" alt="" class="img-responsive">
+                            </a>
+                            <div class="portfolio-item-caption hide">
+                                <h4>Lorem ipsum dolor</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, velit!</p>
+                            </div>
+                        </div>
+                        <div class="mix category-1 category-2 category-3 category-5 col-md-4 col-sm-6 col-xs-12">
+                            <a class="thumbnail" href="img/proyecto29.jpg" data-lightbox="galeria"> 
+                                <img src="img/proyecto29.jpg" alt="" class="img-responsive">
+                            </a>
+                            <div class="portfolio-item-caption hide">
+                                <h4>Lorem ipsum dolor</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, velit!</p>
+                            </div>
+                        </div>
+                        <div class="mix category-1 category-2 category-3 category-5 col-md-4 col-sm-6 col-xs-12">
+                            <a class="thumbnail" href="img/proyecto30.jpg" data-lightbox="galeria"> 
+                                <img src="img/proyecto30.jpg" alt="" class="img-responsive">
+                            </a>
+                            <div class="portfolio-item-caption hide">
+                                <h4>Lorem ipsum dolor</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, velit!</p>
+                            </div>
+                        </div>
+                        <div class="mix category-1 category-2 category-3 category-5 col-md-4 col-sm-6 col-xs-12">
+                            <a class="thumbnail" href="img/proyecto31.jpg" data-lightbox="galeria"> 
+                                <img src="img/proyecto31.jpg" alt="" class="img-responsive">
+                            </a>
+                            <div class="portfolio-item-caption hide">
+                                <h4>Lorem ipsum dolor</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, velit!</p>
+                            </div>
+                        </div>
+                        <div class="mix category-1 category-2 category-3 category-5 col-md-4 col-sm-6 col-xs-12">
+                            <a class="thumbnail" href="img/proyecto32.jpg" data-lightbox="galeria"> 
+                                <img src="img/proyecto32.jpg" alt="" class="img-responsive">
+                            </a>
+                            <div class="portfolio-item-caption hide">
+                                <h4>Lorem ipsum dolor</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, velit!</p>
+                            </div>
+                        </div>
+                        <div class="mix category-1 category-2 category-3 category-5 col-md-4 col-sm-6 col-xs-12">
+                            <a class="thumbnail" href="img/proyecto33.jpg" data-lightbox="galeria"> 
+                                <img src="img/proyecto33.jpg" alt="" class="img-responsive">
+                            </a>
+                            <div class="portfolio-item-caption hide">
+                                <h4>Lorem ipsum dolor</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, velit!</p>
+                            </div>
+                        </div>
+                        <div class="mix category-1 category-2 category-3 category-5 col-md-4 col-sm-6 col-xs-12">
+                            <a class="thumbnail" href="img/proyecto34.jpg" data-lightbox="galeria"> 
+                                <img src="img/proyecto34.jpg" alt="" class="img-responsive">
+                            </a>
+                            <div class="portfolio-item-caption hide">
+                                <h4>Lorem ipsum dolor</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, velit!</p>
+                            </div>
+                        </div>
+                        <div class="mix category-1 category-2 category-3 category-5 col-md-4 col-sm-6 col-xs-12">
+                            <a class="thumbnail" href="img/proyecto35.jpg" data-lightbox="galeria"> 
+                                <img src="img/proyecto35.jpg" alt="" class="img-responsive">
+                            </a>
+                            <div class="portfolio-item-caption hide">
+                                <h4>Lorem ipsum dolor</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, velit!</p>
+                            </div>
+                        </div>
+                        <div class="mix category-1 category-2 category-3 category-5 col-md-4 col-sm-6 col-xs-12">
+                            <a class="thumbnail" href="img/proyecto36.jpg" data-lightbox="galeria"> 
+                                <img src="img/proyecto36.jpg" alt="" class="img-responsive">
+                            </a>
+                            <div class="portfolio-item-caption hide">
+                                <h4>Lorem ipsum dolor</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, velit!</p>
+                            </div>
+                        </div>
+                        <div class="mix category-1 category-2 category-3 category-5 col-md-4 col-sm-6 col-xs-12">
+                            <a class="thumbnail" href="img/proyecto37.jpg" data-lightbox="galeria"> 
+                                <img src="img/proyecto37.jpg" alt="" class="img-responsive">
+                            </a>
+                            <div class="portfolio-item-caption hide">
+                                <h4>Lorem ipsum dolor</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, velit!</p>
+                            </div>
+                        </div>
+                        <div class="mix category-1 category-2 category-3 category-5 col-md-4 col-sm-6 col-xs-12">
+                            <a class="thumbnail" href="img/proyecto38.jpg" data-lightbox="galeria"> 
+                                <img src="img/proyecto38.jpg" alt="" class="img-responsive">
+                            </a>
+                            <div class="portfolio-item-caption hide">
+                                <h4>Lorem ipsum dolor</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, velit!</p>
+                            </div>
+                        </div>
+                        <div class="mix category-1 category-2 category-3 category-5 col-md-4 col-sm-6 col-xs-12">
+                            <a class="thumbnail" href="img/proyecto39.jpg" data-lightbox="galeria"> 
+                                <img src="img/proyecto39.jpg" alt="" class="img-responsive">
+                            </a>
+                            <div class="portfolio-item-caption hide">
+                                <h4>Lorem ipsum dolor</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, velit!</p>
+                            </div>
+                        </div>
+                        <div class="mix category-1 category-2 category-3 category-5 col-md-4 col-sm-6 col-xs-12">
+                            <a class="thumbnail" href="img/proyecto40.jpg" data-lightbox="galeria"> 
+                                <img src="img/proyecto40.jpg" alt="" class="img-responsive">
+                            </a>
+                            <div class="portfolio-item-caption hide">
+                                <h4>Lorem ipsum dolor</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, velit!</p>
+                            </div>
+                        </div>
+                        <div class="mix category-1 category-2 category-3 category-5 col-md-4 col-sm-6 col-xs-12">
+                            <a class="thumbnail" href="img/proyecto41.jpg" data-lightbox="galeria"> 
+                                <img src="img/proyecto41.jpg" alt="" class="img-responsive">
+                            </a>
+                            <div class="portfolio-item-caption hide">
+                                <h4>Lorem ipsum dolor</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, velit!</p>
+                            </div>
+                        </div>
+                        <div class="mix category-1 category-2 category-3 col-md-4 col-sm-6 col-xs-12">
+                            <a class="thumbnail" href="img/proyecto42.jpg" data-lightbox="galeria"> 
+                                <img src="img/proyecto42.jpg" alt="" class="img-responsive">
+                            </a>
+                            <div class="portfolio-item-caption hide">
+                                <h4>Lorem ipsum dolor</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, velit!</p>
+                            </div>
+                        </div>
+                        <div class="mix category-1 category-2 category-3 col-md-4 col-sm-6 col-xs-12">
+                            <a class="thumbnail" href="img/proyecto43.jpg" data-lightbox="galeria"> 
+                                <img src="img/proyecto43.jpg" alt="" class="img-responsive">
+                            </a>
+                            <div class="portfolio-item-caption hide">
+                                <h4>Lorem ipsum dolor</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, velit!</p>
+                            </div>
+                        </div>
+                        <div class="mix category-1 category-2 category-3 col-md-4 col-sm-6 col-xs-12">
+                            <a class="thumbnail" href="img/proyecto44.jpg" data-lightbox="galeria"> 
+                                <img src="img/proyecto44.jpg" alt="" class="img-responsive">
+                            </a>
+                            <div class="portfolio-item-caption hide">
+                                <h4>Lorem ipsum dolor</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, velit!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- col-md-9 -->
+            </div>
+        </div> <!-- container -->
+
+        <aside id="footer-widgets">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3 class="footer-widget-title">Mapa del sitio</h3>
+                        <ul class="list-unstyled three_cols">
+                            <li><a href="inicio.html">Inicio</a></li>
+                            <li><a href="clientes.html">Clientes</a></li>
+                            <li><a href="proyectos.html">Proyectos</a></li>
+                            <li><a href="servicios.html">Servicios</a></li>
+                            <li><a href="nosotros.html">Nosotros</a></li>
+                            <li><a href="contacto.html">Contacto</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="footer-widget">
+                            <h3 class="footer-widget-title">Noticias</h3>
+                            <div class="media">
+                                <a class="pull-left" href="#"><img class="media-object" src="img/noticia2.jpg" width="75" height="75" alt="image"></a>
+                                <div class="media-body">
+                                    <h4 class="media-heading" style=" color: white">Participa Merchise en Campaña "Yo puedo programar", auspiciada por Microsoft, que se llevará a cabo del 6 al 10 de octubre en Latinoamérica.</h4>
+                                    <small>23 Septiembre, 2014</small>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <a class="pull-left" href="#"><img class="media-object" src="img/noticia1.jpg" width="75" height="75" alt="image"></a>
+                                <div class="media-body">
+                                    <h4 class="media-heading" style=" color: white">Merchise.Ltda anuncia cambio de oficinas a partir del 1ro de Octubre de 2014, hacia Leopoldo Urrutia 1860, Ñuñoa.</h4>
+                                    <small>20 Septiembre, 2014</small>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <a class="pull-left" href="#"><img class="media-object" src="img/noticia3.jpg" width="75" height="75" alt="image"></a>
+                                <div class="media-body">
+                                    <h4 class="media-heading"><a href="http://www.pcworldenespanol.com/2014080410030/noticias/software/google-docs-presenta-una-mejor-integracion-para-trabajar-con-microsoft-office.html">Google Docs presenta una mejor integración para trabajar con Office.</a></h4>
+                                    <small>4 Agosto, 2014</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="footer-widget">
+                            <h3 class="footer-widget-title">Proyectos Recientes</h3>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-3 col-xs-6">
+                                    <a class="thumbnail"><img src="img/wf1.jpg" class="img-responsive" alt="Image"></a>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-3 col-xs-6">
+                                    <a class="thumbnail"><img src="img/wf2.jpg" class="img-responsive" alt="Image"></a>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-3 col-xs-6">
+                                    <a class="thumbnail"><img src="img/wf3.jpg" class="img-responsive" alt="Image"></a>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-3 col-xs-6">
+                                    <a class="thumbnail"><img src="img/wf4.jpg" class="img-responsive" alt="Image"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </aside> <!-- footer-widgets -->
+
+        <footer id="footer">
+            <p>&copy; 2014 <a href="#">Merchise Ltda</a></p>
+        </footer>
+        
+    </div> <!-- boxed -->
+    </div> <!-- sb-site -->
+
+    <!--div class="sb-slidebar sb-right">
+        <h2 class="slidebar-header no-margin-bottom">Navegación</h2>
+        <ul class="slidebar-menu">
+            <li><a href="inicio.html">Inicio</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="proyectos.html">Proyectos</a></li>
+            <li><a href="clientes.html">Clientes</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+
+        <h2 class="slidebar-header">Redes Sociales</h2>
+        <div class="slidebar-social-icons">
+            <a href="https://www.facebook.com/merchise" class="social-icon-ar facebook"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/MerchiseLtda" class="social-icon-ar twitter"><i class="fa fa-twitter"></i></a>
+            <a href="https://plus.google.com/110656190905982309961/about" class="social-icon-ar google-plus"><i class="fa fa-google-plus"></i></a>
+            <a href="https://www.linkedin.com/company/merchise" class="social-icon-ar linkedin"><i class="fa fa-linkedin"></i></a>
+        </div>
+    </div> <!-- sb-slidebar sb-right -->
+
+    <div id="back-top">
+        <a href="#header"><i class="fa fa-chevron-up"></i></a>
+    </div>
+    <!-- Scripts -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.cookie.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/slidebars.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+    <script src="js/holder.js"></script>
+    <script src="js/buttons.js"></script>
+    <script src="js/styleswitcher.js"></script>
+    <script src="js/jquery.mixitup.min.js"></script>
+    <script src="js/circles.min.js"></script>
+    <script src="js/lightbox.js"></script>
+    
+    <!-- Syntaxhighlighter -->
+    <script src="js/syntaxhighlighter/shCore.js"></script>
+    <script src="js/syntaxhighlighter/shBrushXml.js"></script>
+    <script src="js/syntaxhighlighter/shBrushJScript.js"></script>
+
+    <script src="js/app.js"></script>
+    <script src="js/portfolio.js"></script>
+</body>
+
+</html>
+
