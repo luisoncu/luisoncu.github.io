@@ -9,13 +9,14 @@ $(document).ready(function(){
 
     $('#bx3').bxSlider({
         hideControlOnEnd: true,
-        minSlides: 3,
-        maxSlides: 3,
+        minSlides: 4,
+        maxSlides: 4,
         slideWidth: 360,
         slideMargin: 10,
         pager: false,
         nextSelector: '#bx-next',
         prevSelector: '#bx-prev',
+        speed: 12000,
         nextText: '>',
         prevText: '<'
       })
