@@ -1,4 +1,4 @@
 .boxed {
     background-color: #fff;
 }
-.d-block{display: block !important;}.h-auto{height: auto;}.mt-50{margin-top: 50px;}.w-96{width: 96px;}
+.d-block{display: block !important;}.h-auto{height: auto!important;}.mt-50{margin-top: 50px;}.w-96{width: 96px;}
